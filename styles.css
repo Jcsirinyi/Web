@@ -1,26 +1,38 @@
+.header {
+  position: fixed;
+  padding: 0;
+  height: 50px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  right: 0;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
-    top: 95%;
-    position: relative;
-    align-content: center;
+  position: relative;
+  align-content: center;
+  height: 50px;
 }
 
 .buttons {
-    left: 45%;
-    top: 50%;
-    font-size: 20px;
-    border-style: solid;
-    border-radius: 7px;
-    border-color: darkgray;
-    background-color: lightgray;
-    position: relative;
-    transition-duration: 0.4s;
-    cursor: pointer;
+  left: 45%;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: darkgray;
+  background-color: lightgray;
+  position: relative;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .buttons:hover {
-    background-color: darkgray;
+  background-color: darkgray;
 }
 
 .body {
-    height: 99%;
+  height: 5000px;
 }
